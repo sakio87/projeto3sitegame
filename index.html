@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation 1 | A Lenda dos 32 Bits</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">PlayStation 1</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-console" class="nav-link">
+                            <i class="bi bi-disc me-1"></i>
+                            O Console
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#acessorios" class="nav-link">
+                            <i class="bi bi-controller me-1"></i>
+                            Acessórios
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos-classicos" class="nav-link">
+                            <i class="bi bi-joystick me-1"></i>
+                            Jogos Clássicos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nostalgia" class="nav-link">
+                            <i class="bi bi-chat-heart me-1"></i>
+                            Nostalgia
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        
+        <section id="sobre-o-console">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpeg" class="d-block w-100" alt="PlayStation Original">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" class="d-block w-100" alt="Controle Clássico PS1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" class="d-block w-100" alt="Logo PlayStation 1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="Console PlayStation 1">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">PlayStation <span class="text-colored">A Lenda</span></h2>
+                            <p>
+                                Lançado em 1994, o PlayStation original (PSX) marcou a entrada da Sony no mundo dos videogames, popularizando o uso de CDs e a computação gráfica 3D. Um console que definiu uma geração!
+                            </p>
+                            <h3 class="section-title">O Fim <span class="text-colored">dos Cartuchos</span></h3>
+                            <p>
+                                O PS1 foi pioneiro, utilizando a tecnologia de CD-ROM, o que permitiu jogos com maior capacidade de dados, trilhas sonoras orquestradas e cenas cinemáticas (FMVs) que eram o auge da época.
+                            </p>
+                            <ul>
+                                <li>Processador de 32 bits</li>
+                                <li>Mídia CD-ROM</li>
+                                <li>Gráficos 3D Poligonais</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="acessorios" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Acessórios <span class="text-colored">Essenciais</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/acessorios/memorycard.jpg" alt="Memory Card" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-save-fill"></i>
+                            Memory Card
+                        </h3>
+                        <p>
+                            Onde a sua jornada era salva! Com meros 128KB, era preciso gerenciar cada slot de save para garantir que a aventura não fosse perdida. Um item obrigatório para todo gamer.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/acessorios/dualshock.jpg" alt="DualShock" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Controle DualShock
+                        </h3>
+                        <p>
+                            A evolução que adicionou vibração (rumble) e alavancas analógicas para uma imersão nunca antes vista. Essencial para jogos como Gran Turismo e Metal Gear Solid.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/acessorios/multitap.jpeg" alt="Multitap" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Multitap (Multiplayer)
+                        </h3>
+                        <p>
+                            Para as lendárias noites de multiplayer! Conecte até quatro controles (ou mais!) para horas de diversão em jogos como Crash Team Racing e Bomberman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="jogos-classicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Jogos que <span class="text-colored">Definiram uma Geração</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#aventura" class="fw-bold text-start nav-link text-colored active">Aventura</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#corrida" class="fw-bold text-start nav-link text-colored">Corrida</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#rpg" class="fw-bold text-start nav-link text-colored">RPG</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aventura">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/games/crashbandicoot.jpeg" alt="Crash Bandicoot">
+                                        <h5 class="text-colored fw-bold mt-2">Crash Bandicoot</h5>
+                                        <p>
+                                            O mascote que competia com a concorrência.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/games/tombraider.jpg" alt="Tomb Raider">
+                                        <h5 class="text-colored fw-bold mt-2">Tomb Raider</h5>
+                                        <p>
+                                            Lara Croft, a primeira heroína de ação 3D.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="corrida">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/games/granturismo.jpg" alt="Gran Turismo">
+                                        <h5 class="text-colored fw-bold mt-2">Gran Turismo</h5>
+                                        <p>
+                                            O simulador de corrida que era "The Real Driving Simulator".
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="rpg">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/games/finalfantasy7.png" alt="Final Fantasy VII">
+                                        <h5 class="text-colored fw-bold mt-2">Final Fantasy VII</h5>
+                                        <p>
+                                            A obra-prima que popularizou o JRPG no Ocidente.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <section id="nostalgia" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Entre na <span class="text-colored">Nostalgia</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-envelope-fill"></i>
+                                Reviva os 32 Bits
+                            </h3>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome de Jogador</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Qual seu jogo favorito do PS1?</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar Memória</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Comunidade Retrô
+                            </h3>
+                            <ul class="social-links list-unstyled">
+                                <li class="fs-5 mb-2">
+                                    <a href="#" target="_blank">
+                                        <i class="bi bi-youtube text-colored"></i> Canais Retrô
+                                    </a>
+                                </li>
+                                <li class="fs-5 mb-2">
+                                    <a href="#" target="_blank">
+                                        <i class="bi bi-discord text-colored"></i> Servidores de Emulação
+                                    </a>
+                                </li>
+                                <li class="fs-5 mb-2">
+                                    <a href="#" target="_blank">
+                                        <i class="bi bi-instagram text-colored"></i> Fotos Clássicas
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Onde Encontrar um PS1
+                            </h3>
+                            <p>
+                                Em sites de colecionadores, mercados de segunda mão ou lojas especializadas em videogames retrô.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white p-3 text-center">
+        <p class="m-0">
+            &copy; 2024 Landing Page PlayStation 1 - Um tributo à história dos videogames.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
